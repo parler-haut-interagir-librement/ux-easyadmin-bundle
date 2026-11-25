@@ -1,13 +1,13 @@
-<!-- phil-dev source-sha256=ff2598fe5ed9fb1db608b2784fb5d88c3315bf3457c815d6abecb569571ac3cd -->
+<!-- phil-dev source-sha256=57130c7018a9f17e360f2a8279100bf58b75d239a1c400c9faac15f8c4de4f2b -->
 # Installation
 
 | Prérequis | Version | Pourquoi |
 |---|---|---|
 | PHP | 8.5 ou plus récent | Le plancher que déclare le bundle |
-| `easycorp/easyadmin-bundle` | ^5.10 | L'administration, ses couches de cascade et son contexte |
+| `easycorp/easyadmin-bundle` | ^5.10.4 | L'administration, ses couches de cascade et son contexte |
 | `symfony/asset-mapper` | ^8.2 | La feuille de style servie sous `phil-ux-easyadmin/phil-ux-easyadmin.css` |
 | `symfony/config`, `symfony/dependency-injection`, `symfony/http-kernel` | ^8.2 | La classe du bundle, sa configuration et son écouteur |
-| `phil/ux-css` | ^0.5 | Les jetons que le thème lit |
+| `phil/ux-css` | 0.5 ou plus récent | Les jetons que le thème lit ; la feuille de style servie porte ceux de la 0.6 |
 
 ```sh
 composer require phil/ux-easyadmin-bundle
